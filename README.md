@@ -20,7 +20,8 @@ MovieFLIX adalah platform katalog film dinamis yang dirancang untuk mensimulasik
 4.  **Pagination Logic**: Mengatur pembatasan jumlah data per halaman untuk memastikan skalabilitas aplikasi saat dataset bertambah besar.
 
 ## 📸 Interface Preview
-*(Anda bisa menambahkan screenshot website Anda di sini)*
+<img width="1297" height="634" alt="image" src="https://github.com/user-attachments/assets/9420845c-26d3-41c8-a0e4-ab51b80c2d68" />
+*![Uploading image.png…]()*
 > Menampilkan katalog film populer seperti *Thrash*, *Zootopia 2*, dan *The Strangers* dengan detail rating yang akurat.
 
 ## 📁 Repository Structure

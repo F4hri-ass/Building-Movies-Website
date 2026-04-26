@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+body {
+    font-family: 'Nosifer', cursive;
+    background: url('https://source.unsplash.com/1600x900/?horror,dark') no-repeat center center fixed;
+    background-size: cover;
+    color: #ff0000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.form-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.6);
+    border: 2px solid red;
+    border-radius: 10px;
+    position: relative;
+}
+
+h2 {
+    color: #ff0000;
+    text-shadow: 2px 2px 4px black;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    background-color: black;
+    color: red;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: darkred;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff0000;
+    box-shadow: 0 0 10px red;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-shadow: 0 0 10px red;
+}
+
+/* Efek Glitch */
+@keyframes glitch {
+    0% { text-shadow: 3px 3px red, -3px -3px blue; }
+    25% { text-shadow: -3px -3px red, 3px 3px blue; }
+    50% { text-shadow: 3px -3px red, -3px 3px blue; }
+    75% { text-shadow: -3px 3px red, 3px -3px blue; }
+    100% { text-shadow: 3px 3px red, -3px -3px blue; }
+}
+
+h2 {
+    animation: glitch 1s infinite alternate;
+}
+
+/* Efek Darah Menetes */
+.form-container::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 50px;
+    background: red;
+    left: 50%;
+    top: 100%;
+    border-radius: 50%;
+    animation: blood-drop 2s infinite;
+}
+
+@keyframes blood-drop {
+    0% { height: 0px; opacity: 1; }
+    50% { height: 25px; opacity: 0.8; }
+    100% { height: 50px; opacity: 0; }
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}

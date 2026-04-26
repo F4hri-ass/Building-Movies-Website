@@ -1,9 +1,5 @@
 # 🎬 MovieFLIX – Dynamic Movie Catalog & Data Retrieval System
 
-![JavaScript](https://shields.io)
-![HTML5](https://shields.io)
-![CSS3](https://shields.io)
-
 ## 📌 Project Overview
 MovieFLIX adalah platform katalog film dinamis yang dirancang untuk mensimulasikan pengalaman pengguna pada layanan streaming modern seperti Netflix. Proyek ini fokus pada efisiensi **data retrieval** (pengambilan data) dari dataset film skala besar dan penyajiannya melalui antarmuka yang responsif.
 
@@ -23,12 +19,6 @@ MovieFLIX adalah platform katalog film dinamis yang dirancang untuk mensimulasik
 <img width="1297" height="634" alt="image" src="https://github.com/user-attachments/assets/9420845c-26d3-41c8-a0e4-ab51b80c2d68" />
 *![Uploading image.png…]()*
 > Menampilkan katalog film populer seperti *Thrash*, *Zootopia 2*, dan *The Strangers* dengan detail rating yang akurat.
-
-## 📁 Repository Structure
-*   `index.html`: Struktur utama website.
-*   `style.css`: Styling visual dengan tema dark-mode.
-*   `script.js`: Logika utama untuk search, pagination, dan rendering data.
-*   `assets/`: Berisi gambar dan sumber daya visual lainnya.
 
 
 **Created by Muhammad Fahri Novarian**  
